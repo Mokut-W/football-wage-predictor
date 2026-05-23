@@ -5,7 +5,7 @@ import seaborn as sns
 
 # Connect to MySQL
 conn = mysql.connector.connect(
-    host="localhost", user="root", password="Exalted.143", database="fifa_db"
+    host="localhost", user="root", password="", database="fifa_db"
 )
 
 print("Connected to MySQL!")
